@@ -21,8 +21,7 @@ namespace LastMatch
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Show();
-            //MessageBox.Show("THIS SOFTWARE IS UNFINISHED!\nCreated by Wooph at WZT.ro","LastMatch - Warning");
+            
         }
 
         private void buttonLoadMatch_Click(object sender, EventArgs e)
