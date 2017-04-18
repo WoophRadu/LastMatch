@@ -91,9 +91,9 @@ namespace LastMatch
 
                 DataGridViewRow row = (DataGridViewRow)dataGridView1.Rows[0].Clone();
                 row.Cells[1].Value = "Wooph";
-                string kills = (string)dataWooph["playerstats"]["stats"][91]["value"];
-                string deaths = (string)dataWooph["playerstats"]["stats"][92]["value"];
-                string mvps = (string)dataWooph["playerstats"]["stats"][93]["value"];
+                int kills = (int)dataWooph["playerstats"]["stats"][91]["value"];
+                int deaths = (int)dataWooph["playerstats"]["stats"][92]["value"];
+                int mvps = (int)dataWooph["playerstats"]["stats"][93]["value"];
                 row.Cells[2].Value = kills;
                 row.Cells[4].Value = deaths;
                 row.Cells[5].Value = mvps;
@@ -101,9 +101,9 @@ namespace LastMatch
 
                 row = (DataGridViewRow)dataGridView1.Rows[0].Clone();
                 row.Cells[1].Value = "David";
-                kills = (string)dataDavid["playerstats"]["stats"][81]["value"];
-                deaths = (string)dataDavid["playerstats"]["stats"][82]["value"];
-                mvps = (string)dataDavid["playerstats"]["stats"][83]["value"];
+                kills = (int)dataDavid["playerstats"]["stats"][81]["value"];
+                deaths = (int)dataDavid["playerstats"]["stats"][82]["value"];
+                mvps = (int)dataDavid["playerstats"]["stats"][83]["value"];
                 row.Cells[2].Value = kills;
                 row.Cells[4].Value = deaths;
                 row.Cells[5].Value = mvps;
@@ -111,9 +111,9 @@ namespace LastMatch
 
                 row = (DataGridViewRow)dataGridView1.Rows[0].Clone();
                 row.Cells[1].Value = "Adi";
-                kills = (string)dataAdi["playerstats"]["stats"][91]["value"];
-                deaths = (string)dataAdi["playerstats"]["stats"][92]["value"];
-                mvps = (string)dataAdi["playerstats"]["stats"][93]["value"];
+                kills = (int)dataAdi["playerstats"]["stats"][91]["value"];
+                deaths = (int)dataAdi["playerstats"]["stats"][92]["value"];
+                mvps = (int)dataAdi["playerstats"]["stats"][93]["value"];
                 row.Cells[2].Value = kills;
                 row.Cells[4].Value = deaths;
                 row.Cells[5].Value = mvps;
@@ -121,9 +121,9 @@ namespace LastMatch
 
                 row = (DataGridViewRow)dataGridView1.Rows[0].Clone();
                 row.Cells[1].Value = "Rola";
-                kills = (string)dataRola["playerstats"]["stats"][91]["value"];
-                deaths = (string)dataRola["playerstats"]["stats"][92]["value"];
-                mvps = (string)dataRola["playerstats"]["stats"][93]["value"];
+                kills = (int)dataRola["playerstats"]["stats"][91]["value"];
+                deaths = (int)dataRola["playerstats"]["stats"][92]["value"];
+                mvps = (int)dataRola["playerstats"]["stats"][93]["value"];
                 row.Cells[2].Value = kills;
                 row.Cells[4].Value = deaths;
                 row.Cells[5].Value = mvps;
@@ -131,9 +131,9 @@ namespace LastMatch
 
                 row = (DataGridViewRow)dataGridView1.Rows[0].Clone();
                 row.Cells[1].Value = "Nihtmer";
-                kills = (string)dataNihtmer["playerstats"]["stats"][91]["value"];
-                deaths = (string)dataNihtmer["playerstats"]["stats"][92]["value"];
-                mvps = (string)dataNihtmer["playerstats"]["stats"][93]["value"];
+                kills = (int)dataNihtmer["playerstats"]["stats"][91]["value"];
+                deaths = (int)dataNihtmer["playerstats"]["stats"][92]["value"];
+                mvps = (int)dataNihtmer["playerstats"]["stats"][93]["value"];
                 row.Cells[2].Value = kills;
                 row.Cells[4].Value = deaths;
                 row.Cells[5].Value = mvps;
@@ -141,9 +141,9 @@ namespace LastMatch
 
                 row = (DataGridViewRow)dataGridView1.Rows[0].Clone();
                 row.Cells[1].Value = "Loopie";
-                kills = (string)dataLoopie["playerstats"]["stats"][90]["value"];
-                deaths = (string)dataLoopie["playerstats"]["stats"][91]["value"];
-                mvps = (string)dataLoopie["playerstats"]["stats"][92]["value"];
+                kills = (int)dataLoopie["playerstats"]["stats"][90]["value"];
+                deaths = (int)dataLoopie["playerstats"]["stats"][91]["value"];
+                mvps = (int)dataLoopie["playerstats"]["stats"][92]["value"];
                 row.Cells[2].Value = kills;
                 row.Cells[4].Value = deaths;
                 row.Cells[5].Value = mvps;
@@ -151,9 +151,9 @@ namespace LastMatch
 
                 row = (DataGridViewRow)dataGridView1.Rows[0].Clone();
                 row.Cells[1].Value = "Dusky";
-                kills = (string)dataDusky["playerstats"]["stats"][92]["value"];
-                deaths = (string)dataDusky["playerstats"]["stats"][93]["value"];
-                mvps = (string)dataDusky["playerstats"]["stats"][94]["value"];
+                kills = (int)dataDusky["playerstats"]["stats"][92]["value"];
+                deaths = (int)dataDusky["playerstats"]["stats"][93]["value"];
+                mvps = (int)dataDusky["playerstats"]["stats"][94]["value"];
                 row.Cells[2].Value = kills;
                 row.Cells[4].Value = deaths;
                 row.Cells[5].Value = mvps;
