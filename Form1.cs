@@ -38,11 +38,9 @@ namespace LastMatch
             JObject dataDusky = null;
 
             BackgroundWorker bw = new BackgroundWorker();
-
-            // this allows our worker to report progress during work
+            
             bw.WorkerReportsProgress = true;
-
-            // what to do in the background thread
+            
             bw.DoWork += new DoWorkEventHandler(
             delegate (object o, DoWorkEventArgs args)
             {
